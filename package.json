@@ -1,0 +1,21 @@
+{
+  "name": "pdf-optimization-and-upload",
+  "version": "1.0.1",
+  "description": "",
+  "author": "",
+  "private": true,
+  "license": "UNLICENSED",
+  "scripts": {
+    "start": "ts-node src/optimizepdfAndUpload.ts"
+  },
+  "dependencies": {
+    "@aws-sdk/client-s3": "^3.782.0",
+    "json2csv": "^6.0.0-alpha.2",
+    "mongodb": "^6.15.0",
+    "mongoose": "^7.0.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2",
+    "typescript": "^4.7.4"
+  }
+}
