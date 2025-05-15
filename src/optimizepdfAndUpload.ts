@@ -15,19 +15,12 @@ import { promisify } from "util";
 
 const execAsync = promisify(exec);
 
-// const AWS_CONFIG_ENV =
-//   "ICB7CiAgICAidXNlciI6IHsgIm5hbWUiOiAieHNlZWQtYXNzZXQtdmF1bHQtczMtcnctdXNlci1wcm9kIiB9LAogICAgImF3cyI6IHsKICAgICAgImFjY2Vzc0tleUlkIjogIkFLSUE0MldCNjdVSVQ3TUtUQzQ2IiwKICAgICAgInNlY3JldEFjY2Vzc0tleSI6ICJvTStYTWZaazNCYVJjbGhkbUZYK2dJeWhXVFM3TzNhd1IwcEgzNFBpIiwKICAgICAgInJlZ2lvbiI6ICJhcC1zb3V0aGVhc3QtMSIKICAgIH0sCiAgICAiczMiOiB7ICJidWNrZXROYW1lIjogInhzZWVkLWFzc2V0LXZhdWx0LTIxMi1wcm9kIiB9CiAgfQo";
-// const ASSET_DB_NAME = "assets-db";
-// const LESSONPLAN_DB_NAME = "lessonplan-db";
-// const MONGO_URL =
-//   "mongodb+srv://prod_admin_rw:5V2jf9xBUxQ9YdWA@prod-xseed-40.yobxy.gcp.mongodb.net/";
-
 const AWS_CONFIG_ENV =
-  "ICB7CiAgICAidXNlciI6IHsgIm5hbWUiOiAieHNlZWQtYXNzZXQtdmF1bHQtczMtcnctdXNlci1zdGFnaW5nIiB9LAogICAgImF3cyI6IHsKICAgICAgImFjY2Vzc0tleUlkIjogIkFLSUFaM0Q0SklWVks3QUhLT0dJIiwKICAgICAgInNlY3JldEFjY2Vzc0tleSI6ICJPNmYyUmxrYlFIVkN3dU1tcEU1N2tWdTQ5ZmxZanAydDZLSnhYNE16IiwKICAgICAgInJlZ2lvbiI6ICJ1cy13ZXN0LTIiCiAgICB9LAogICAgInMzIjogeyAiYnVja2V0TmFtZSI6ICJ4c2VlZC1hc3NldC12YXVsdC0zNzItc3RhZ2luZyIgfQogIH0K";
+  "";
 const ASSET_DB_NAME = "assets-db";
 const LESSONPLAN_DB_NAME = "lessonplan-db";
 const MONGO_URL =
-  "mongodb+srv://staging_admin_rw:Dc19dyoX1aUwkBMZ@staging-xseed-448.fqr3p.mongodb.net/";
+  "";
 const LESSONPLAN_DB_CONNECTION = `${MONGO_URL}${LESSONPLAN_DB_NAME}`;
 const ASSET_DB_CONNECTION = `${MONGO_URL}${ASSET_DB_NAME}`;
 const batchSize = 25;
